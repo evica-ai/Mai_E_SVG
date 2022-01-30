@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body { font-size: 16px; }
+#mainHeader
+{
+  display: flex;
+	flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+#logo
+{
+  display: flex;
+	align-self: center;
+  justify-content: center;
+
+}
+
+#mainNav
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+#summary
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
+  margin-bottom: 50px;
+}
+
+h1
+{
+  display: flex;
+  font-size: 45px;
+  font-color: #832238;
+  justify-content: center;
+  align-content: flex-start;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+h2
+{
+  display: flex;
+  font-size: 30px;
+  color: #F08E8F;
+  justify-content: center;
+  align-content: flex-start;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p
+{
+    line-height: 20px;
+    text-align: center;
+    align-content: flex-start;
+    background: #fff;
+    margin: 1px;
+}
+
+  .icon-holder {width: 100%; margin: 0 auto; text-align: center; }
+  .icon-holder2 {width: 100%; margin: 0 auto; text-align: center; }
+
+  .wrapper {width: 10%; display: inline-block; padding: 1em; }
+  .wrapper img {width: 100%; }
+  .wrapper
+  {
+    align-content: center;
+    justify-content: center;
+  }
+
+  .wrapper2 {width: 10%; display: inline-block; padding: 1em; }
+  .wrapper2 img {width: 100%; }
+  .wrapper2
+  {
+    align-content: center;
+    justify-content: center;
+  }
+
+  .logo {width: 8%; display: inline-block; padding: 1em; }
+  .logo img {width: 100%; }
